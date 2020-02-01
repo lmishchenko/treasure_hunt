@@ -1,3 +1,8 @@
+"""
+    The implementations use a functional programming approach
+"""
+
+
 def execute(number, matrix):
     index = 5 * ((number // 10) - 1) + (number % 10) - 1
     if number == matrix[index]:

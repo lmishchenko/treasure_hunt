@@ -1,3 +1,8 @@
+"""
+    The script implemented in an object-oriented way
+"""
+
+
 class Input:
     def __init__(self, matrix):
         self.data = matrix
